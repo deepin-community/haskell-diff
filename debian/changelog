@@ -1,0 +1,187 @@
+haskell-diff (0.4.0-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:37:43 +0800
+
+haskell-diff (0.4.0-1) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Remove Dmitry Bogatov from Uploaders per his request. Thank you
+    Dmitry for your previous maintainership.
+
+  [ Clint Adams ]
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 30 May 2020 16:57:13 -0400
+
+haskell-diff (0.3.4-4) unstable; urgency=medium
+
+  [ Clint Adams ]
+  * Set Rules-Requires-Root to no.
+
+  [ Ilias Tsitsimpis ]
+  * Bump debhelper compat level to 10
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 30 Sep 2018 21:06:43 +0300
+
+haskell-diff (0.3.4-3) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Change Priority to optional. Since Debian Policy version 4.0.1,
+    priority extra has been deprecated.
+  * Use the HTTPS form of the copyright-format URL
+  * Modify d/watch and Source field in d/copyright to use HTTPS
+  * Declare compliance with Debian policy 4.1.1
+  * Use salsa.debian.org URLs in Vcs-{Browser,Git} fields
+
+  [ Clint Adams ]
+  * Bump to Standards-Version 4.1.4.
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 20:04:47 -0400
+
+haskell-diff (0.3.4-2) unstable; urgency=medium
+
+  * Upload to unstable as part of GHC 8 transition.
+
+ -- Clint Adams <clint@debian.org>  Thu, 27 Oct 2016 18:33:23 -0400
+
+haskell-diff (0.3.4-1) experimental; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Use secure (https) uri in Vcs-Git field in 'debian/control'
+  * Bump standards version to 3.9.8 (no changes needed)
+  * Convert `debian/copyright' to dep5 format
+
+  [ Clint Adams ]
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Fri, 07 Oct 2016 20:03:33 -0400
+
+haskell-diff (0.3.2-3) unstable; urgency=medium
+
+  * Switch Vcs-Git/Vcs-Browser headers to new location.
+
+ -- Clint Adams <clint@debian.org>  Thu, 03 Dec 2015 14:54:22 -0500
+
+haskell-diff (0.3.2-2) experimental; urgency=medium
+
+  * Depend on haskell-devscripts >= 0.10 to ensure that this package
+    builds against GHC in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 20 Aug 2015 10:27:28 +0200
+
+haskell-diff (0.3.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Reformat debian/changelog according to dep5
+  * Use X-Descriptions and blurbs to avoid duplication
+
+ -- Dmitry Bogatov <KAction@gnu.org>  Sat, 27 Jun 2015 20:05:51 +0300
+
+haskell-diff (0.3.1-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 27 Apr 2015 11:49:13 +0200
+
+haskell-diff (0.3.1-1) experimental; urgency=medium
+
+  [ Chris Lamb ]
+  * Remove myself from Uploaders.
+
+  [ Dmitry Bogatov ]
+  * New upstream version
+  * Bump standards version, no change
+
+ -- Dmitry Bogatov <KAction@gnu.org>  Sat, 04 Apr 2015 09:42:13 +0300
+
+haskell-diff (0.3.0-2) experimental; urgency=medium
+
+  * Depend on haskell-devscripts 0.9, found in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 20 Dec 2014 17:10:17 +0100
+
+haskell-diff (0.3.0-1) unstable; urgency=low
+
+  [ Joachim Breitner ]
+  * Adjust watch file to new hackage layout
+
+  [ Clint Adams ]
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Mon, 25 Nov 2013 11:05:00 -0500
+
+haskell-diff (0.2.0-2) unstable; urgency=low
+
+  * Enable compat level 9
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 24 May 2013 12:50:27 +0200
+
+haskell-diff (0.2.0-1) experimental; urgency=low
+
+  * New upstream release
+  * Enable test suite
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 08 Feb 2013 21:10:52 +0100
+
+haskell-diff (0.1.3-2) experimental; urgency=low
+
+  * Depend on haskell-devscripts 0.8.13 to ensure this packages is built
+    against experimental
+  * Bump standards version, no change
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 14 Oct 2012 12:00:40 +0200
+
+haskell-diff (0.1.3-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Tue, 07 Feb 2012 22:51:22 +0100
+
+haskell-diff (0.1.2-6) unstable; urgency=low
+
+  [ Marco Túlio Gontijo e Silva ]
+  * debian/source/format: Use 3.0 (quilt).
+
+  [ Marco Silva ]
+  * Use ghc instead of ghc6
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 03 Apr 2011 09:55:07 +0530
+
+haskell-diff (0.1.2-5) unstable; urgency=low
+
+  * Adopt by the Debian Haskell Group
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 20 Feb 2010 19:24:22 +0100
+
+haskell-diff (0.1.2-4) unstable; urgency=low
+
+  * Add missing Build-Depends on hscolour. (Closes: #517495)
+  * Bump Build-Depends on ghc6 to 6.10.1+dfsg1-13 and haddock to 2.4.1-4 to
+    prevent arch-dependent issues with ghc6-doc.
+
+ -- Chris Lamb <lamby@debian.org>  Sun, 01 Mar 2009 15:31:28 +0000
+
+haskell-diff (0.1.2-3) unstable; urgency=low
+
+  * Add missing Build-Depends on ghc6-prof (Closes: #516830)
+  * Bump GHC requirement to 6.10.1.
+  * Move to hlibrary.mk-based build approach.
+  * Update libghc6-diff-prof's short description.
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 25 Feb 2009 22:54:10 +0000
+
+haskell-diff (0.1.2-2) unstable; urgency=low
+
+  * Add GHC profiling package.
+  * Use `dh_prep` over deprecated `dh_clean -k`.
+  * Update location of Git repositories.
+
+ -- Chris Lamb <lamby@debian.org>  Mon, 16 Feb 2009 02:16:49 +0000
+
+haskell-diff (0.1.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #504237)
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 05 Nov 2008 22:16:20 +0000
